@@ -160,8 +160,14 @@ body {
         width: 200px;
     }
     
+    .slogan {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+
     .products {
-        font-size: 1px;
+        font-size: 25px;
     }
 
 
@@ -170,6 +176,11 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
+
+    .container , .container2{
+        margin-bottom: 15px;
+    }
+
 
     .about-info {
         display: table;
