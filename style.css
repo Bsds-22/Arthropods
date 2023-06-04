@@ -165,20 +165,29 @@ body {
         margin-bottom: 20px;
     }
 
+    .pic , .pic2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(3, 1fr); 
+        gap: 5px;
+        justify-content: center;
+    }
 
     .products {
         font-size: 25px;
     }
-
-
-    .pic, .pic2 {
-        display: grid;
-        margin-left: auto;
-        margin-right: auto;
+    
+    .container , .container2{
+        margin-bottom: 10px;
+        width: 180px;
+        height: 170px;
     }
 
-    .container , .container2{
-        margin-bottom: 15px;
+    .container img,
+    .container2 img {
+    border-radius: 21px;
+    width: 170px;
+    height: 160px;
     }
 
 
