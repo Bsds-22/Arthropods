@@ -193,7 +193,8 @@ body {
 
     .about-info {
         display: table;
-        font-size: 20px;
+        font-size: 14px;
+        margin: auto;
         text-align: center;
     }
     
