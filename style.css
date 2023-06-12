@@ -24,10 +24,10 @@ body {
 .slogan{
     font-size: 40px;
     text-align: center;
-    color: #ff1900;
-    font-size: 30px;
-    text-shadow: 0 0 5px #378ab4;
-    color: #ff1900;
+    color: rgba(21,72,126,255);
+    font-size: 40px;
+    text-shadow: 0 0 5px #00c8ff;
+    
 }
 
 .products {
@@ -55,7 +55,6 @@ body {
     border: 4px solid rgb(72, 66, 66);
     margin-right: 5px;
     border-radius: 25px;
-    
   }
   
   
@@ -131,7 +130,8 @@ body {
 }
 
 .about a {
-    color: red;
+    color: black;
+    text-shadow: 0 0 4px rgb(0, 247, 255);
 }
 
 .about-info{
@@ -156,6 +156,7 @@ body {
     .name-store{
         font-size: 22px;
     }
+
     .logo img{
         width: 200px;
     }
@@ -201,9 +202,9 @@ body {
     .info h2 {
         font-size: 7px;
     }
-    
+
     .order img {
         width: 220px;
     }
-
+    
 }
